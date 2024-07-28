@@ -1,4 +1,4 @@
 exports.helloWorld = (req, res) => {
-  let message = req.query.message || req.body.message || 'Hello World! V1';
+  let message = req.query.message || req.body.message || 'Hello World! V2';
   res.status(200).send(message);
 };
